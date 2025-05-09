@@ -1,0 +1,64 @@
+/* Body with a gradient background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #234178, #366dcb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  /* Centering the stopwatch container */
+  #stopwatch {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Display time */
+  #display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #ffffff22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ffffff44;
+  }
+  
+  /* Lap list */
+  #laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  #laps li {
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
